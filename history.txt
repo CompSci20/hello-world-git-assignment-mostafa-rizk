@@ -1,0 +1,32 @@
+    1  git clone https://github.com/CompSci20/hello-world-git-assignment-mostafa-rizk.git
+    2  ls
+    3  cd hello-world-git-assignment-mostafa-rizk/
+    4  ls
+    5  nano poem.txt
+    6  git add poem.txt
+    7  git status
+    8  git commit -m "Changed poem to match original"
+    9  git branch myPoem
+   10  git checkout myPoem
+   11  nano poem.txt
+   12  git status
+   13  git add poem.txt
+   14  git status
+   15  git commit -m "Replaced 'lion' with a much scarier animal to be eaten by"
+   16  nano poem.txt
+   17  git commit -m "Gave credit to myself"
+   18  git add poem.txt
+   19  git commit -m "Gave credit to myself"
+   20  git tag -a version2 -m "Improved version"
+   21  git show version2
+   22  git checkout master
+   23  git merge myPoem
+   24  git log
+   25  git reset 20073b8
+   26  git checkout HEAD poem.txt
+   27  git commit -m "Reverting back to original poem"
+   28  git branch
+   29  git add poem.txt
+   30  git commit -m "Reverting back to original poem"
+   31  terminal history > history.txt
+   32  history > history.txt
