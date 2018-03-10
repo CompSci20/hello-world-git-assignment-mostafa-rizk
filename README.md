@@ -12,8 +12,8 @@ Complete the following steps:
 7. Tag the current version as `version2` annotated as `Improved version` (see https://git-scm.com/book/en/v2/Git-Basics-Tagging for info on tagging).
 8. Switch back to the master branch.
 9. Merge the `myPoem` branch with the `master`.
-10. Revert to the original version of the poem and commit.
-11. Run the following command in the `terminal history > history.txt`.
+10. Revert to the original version of the poem (Dr. P. last commit before your first commit).
+11. Run the following command in the terminal `history > history.txt`.
 12. Add the `history.txt` file to the repository and commit.
 13. Push your local repo to GitHub.
 14. Ask your teacher to mark your assignment.
